@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   const citySelect = document.getElementById("citySelect");
 
-  backgrounds = {
+  const backgrounds = {
     nyc: "url('images/nyc.jpg')",
     sf: "url('images/sf.jpg')",
     la: "url('images/la.jpg')",
