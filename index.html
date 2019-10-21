@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CitiPix</title>
+
+    <meta charset="utf-8" />
+    <meta name="author" content="CitiPix" />
+    <meta
+      name="description"
+      content="Displays city skylines according to city choice."
+    />
+
+    <link
+      rel="stylesheet"
+      href="css/normalize.css"
+      media="screen"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+      media="screen"
+      type="text/css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>CitiPix</h1>
+      <p>| your cities, your pix |</p>
+    </header>
+
+    <select id="citySelect">
+      <option value="" disabled selected hidden>Select a City</option>
+      <option value="nyc">New York City</option>
+      <option value="atx">Austin</option>
+      <option value="la">Los Angeles</option>
+      <option value="sf">San Francisco</option>
+      <option value="syd">Sydney</option>
+    </select>
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
